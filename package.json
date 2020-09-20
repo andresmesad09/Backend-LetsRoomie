@@ -1,0 +1,28 @@
+{
+  "name": "castor",
+  "version": "1.0.0",
+  "description": "Final Project Platzi Master",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Regniek/Backend-LetsRoomie.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Regniek/Backend-LetsRoomie/issues"
+  },
+  "homepage": "https://github.com/Regniek/Backend-LetsRoomie#readme"
+}
