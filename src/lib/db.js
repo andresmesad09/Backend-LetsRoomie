@@ -2,10 +2,8 @@ const admin = require('firebase-admin');
 const config = require('../config/config')
 
 
-const serviceAccount = require('../config/hola.json');
-
 admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
+  credential: admin.credential.applicationDefault(),
   databaseURL: 'https://folderlet.firebaseio.com'
 });
 
